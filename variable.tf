@@ -19,7 +19,8 @@ variable "Myinstance" {
 
 }
 variable "demo_sg" {
-  default = "10.20.40.50/32"
+  type    = list(number)
+  default = [8080, 8081, 9000, 9001]
 
 }
 variable "instancetype" {
