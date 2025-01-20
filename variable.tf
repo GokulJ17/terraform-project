@@ -27,10 +27,9 @@ variable "instancetype" {
   default = "t2.micro"
   type    = string
 }
-variable "ami" {
-  default = "ami-0fd05997b4dff7aac"
-  type    = string
-}
+#variable "web_ami" {
+#type    = string
+#}
 variable "A-Z" {
   default = "ap-south-1a"
   type    = string
